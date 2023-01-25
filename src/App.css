@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 1140px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 24px;
+  color: #ffffff;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 100;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
